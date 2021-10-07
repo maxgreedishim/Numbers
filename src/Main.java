@@ -11,7 +11,7 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        NumberHolder numberHolder = new NumberHolder(23,23.23f);
+        new NumberHolder(23,23.23f);
         NumberHolder.aFloat = 1.2f;
         NumberHolder.anInt = 12;
         System.out.println(NumberHolder.anInt);
